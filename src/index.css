@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.travel-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.travel-cards .card{
+    height: 160px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 15px;
+    margin: 10px 2px;
+}
+
+.travel-cards .card img{
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+}
+.travel-cards .card p{
+    margin: 6px 0px;
+}
+
+
+.app-div{
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 4px 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.app-div .app-head{
+    background-color: maroon;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
